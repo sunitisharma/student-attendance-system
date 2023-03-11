@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/dashboard.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <!-- menubar create -->
+        <div class="menubar menu_open">
+            <!-- profile image section -->
+            <div class="profile_section">
+                <img src="../images/logo.png" width="50" />
+                <h4 class="logo_title">Attandance Management</h4>
+            </div>
+            <hr />
+            <!-- add features-->
+            <br />
+            <ul class="feature_list">
+                <li><i class="fa fa-home" style="color:white;font-size:18px;width:40px;"></i><a href="./dashboard.html">
+                        Add Class</a></li>
+                <li><i class="fa fa-graduation-cap" style="color:white;font-size:18px;width:40px;"></i><a
+                        href="./student.html"> Add
+                        Student</a></li>
+                <li class="active"><i class="fa fa-stumbleupon" style="color:white;font-size:18px;width:40px;"></i><a
+                        href="#">Attandance</a></li>
+                <li class="logout"><i class="fa fa-sign-out" style="color:white;font-size:18px;width:40px;"></i><a
+                        href="#">Logout</a></li>
+            </ul>
+
+        </div>
+
+        <!-- dashboard div create -->
+        <div class="dashboard_div dashboard_minimum">
+            <!-- navbar create -->
+            <nav class="navbar">
+                <i class="fa fa-bars bars_icon " style="font-size:30px;cursor:pointer;"></i>
+                <div class="today_date"></div>
+                <input type="search" class="filter_search" placeholder="Student Name Search" />
+                <h2 class="profile_title">hello demo</h2>
+            </nav>
+
+            <!-- result div create -->
+            <div class="result_div">
+
+                <!-- attandance nav -->
+                <div class="attandance_nav">
+                    <!-- select date -->
+                    <!-- <input type="date" name="attandance_date" /> -->
+
+                    <input type="date" class="filter_date" />
+
+                    <!-- filter -->
+                    <select class="filter">
+                        <option>All Student</option>
+                        <option>Present Student</option>
+                        <option>Absent Student</option>
+                        <option>Leave Student</option>
+                    </select>
+
+                    <!-- classes filter -->
+
+                    <select class="class_filter">
+                        <option>All Class</option>
+                    </select>
+                </div>
+                <hr />
+
+                <!-- attandance student profile-->
+                <div class="student_main_div">
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <script src="../script/dashboard.js"></script>
+    <script src="../script/attandance.js"></script>
+
+</body>
+
+</html>

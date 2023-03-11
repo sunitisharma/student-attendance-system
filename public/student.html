@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/dashboard.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <!-- menubar create -->
+        <div class="menubar menu_open">
+            <!-- profile image section -->
+            <div class="profile_section">
+                <img src="../images/logo.png" width="50" />
+                <h4 class="logo_title">Attandance Management</h4>
+            </div>
+            <hr />
+            <!-- add features-->
+            <br />
+            <ul class="feature_list">
+                <li><i class="fa fa-home" style="color:white;font-size:18px;width:40px;"></i><a href="./dashboard.html">
+                        Add Class</a></li>
+                <li class="active"><i class="fa fa-graduation-cap" style="color:white;font-size:18px;width:40px;"></i><a
+                        href="#"> Add
+                        Student</a></li>
+                <li><i class="fa fa-stumbleupon" style="color:white;font-size:18px;width:40px;"></i><a
+                        href="./attandance.html">Attandance</a></li>
+                <li class="logout"><i class="fa fa-sign-out" style="color:white;font-size:18px;width:40px;"></i><a
+                        href="#">Logout</a></li>
+            </ul>
+
+        </div>
+
+        <!-- dashboard div create -->
+        <div class="dashboard_div dashboard_minimum">
+            <!-- navbar create -->
+            <nav class="navbar">
+                <i class="fa fa-bars bars_icon " style="font-size:30px;cursor:pointer;"></i>
+                <h2 class="profile_title">hello krishna</h2>
+            </nav>
+
+            <!-- result div create -->
+            <div class="result_div flex_center">
+                <!-- form design -->
+                <form class="studentForm">
+                    <div class="icon_div_student">
+                        <i class="fa fa-graduation-cap" style="color:white;font-size:35px;width:40px;"></i>
+                    </div>
+                    <br /><br />
+                    <h2 class="text-center padding-15 sans mb20">Add Student</h2>
+                    <input type="text" name="student_name" placeholder="Student Name" class="student_name" required />
+                    <br />
+                    <input type="text" name="father_name" placeholder="Father Name" class="father_name" required />
+                    <br />
+                    <input type="email" name="student_email" placeholder="email" class="student_email" required />
+                    <br />
+                    <input type="number" name="student_number" maxlength="10" placeholder="Number" class="student_number" required />
+                    <br />
+                    <select name="class" class="classSelect" required>
+                    </select>
+                    <br />
+                    <h3 class="student_alert"></h3><br />
+                    <input type="submit" name="student_btn" value="Add Student" />
+
+                </form>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <script src="../script/dashboard.js"></script>
+    <script src="../script/student.js"></script>
+
+</body>
+
+</html>
