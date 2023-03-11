@@ -54,7 +54,7 @@ so you don't have to install another packeges.
 
 you can clone the project using
 ```
-git clone https://github.com/AnilHabilelabs/attendance.git
+git clone https://github.com/sunitisharma/student-attendance-system.git
 ```
 
 Verify the attendance system by navigating to your server address in
