@@ -74,7 +74,7 @@ MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-[attendance]: <git@github.com:AnilHabilelabs/attendance.git>
+[attendance]: <git@github.com:sunitisharma/student-attendance-system.git>
 [jQuery]: <https://jquery.com/>
 [font-awesome]: <https://fontawesome.com/>
-[public repository]: <https://github.com/AnilHabilelabs/attendance.git>
+[public repository]: <https://github.com/sunitisharma/student-attendance-system.git>
